@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-    public float teleportInterval = 0.5f;
-    public float xPoint = 7f;
-    public float yPoint = 2f;
+    [SerializeField] private float teleportInterval = 0.5f;
+    [SerializeField] private float xPoint = 7f;
+    [SerializeField] private float yPoint = 2f;
     private float timer;
 
     void Start()

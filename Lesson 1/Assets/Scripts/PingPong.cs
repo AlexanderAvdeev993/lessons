@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PingPong : MonoBehaviour
 {      
-    public float speed = 10f;
+    [SerializeField] private float speed = 10f;
     private bool moveRight = true;
 
 

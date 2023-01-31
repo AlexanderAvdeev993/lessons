@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Scaler : MonoBehaviour
 {
-    public float scalingSpeed = 2f;
-    public float targetScaleMin = 1f;
-    public float targetScaleMax = 4f;
+    [SerializeField] private float scalingSpeed = 2f;
+    [SerializeField] private float targetScaleMin = 1f;
+    [SerializeField] private float targetScaleMax = 4f;
 
     private float currentScale;
     private bool scaleUp = true;
